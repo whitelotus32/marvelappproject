@@ -7,8 +7,12 @@
   margin: 1vmin;
   overflow: hidden;
   position: relative;
+  background-image: url(https://1.bp.blogspot.com/-8Pe1YtuI0Ys/XJEMRk0pyWI/AAAAAAAAA4s/moT842tc-H4USgo3HJ3yirMwl2DjaaIFwCKgBGAs/w3840-h1600-p-k-no-nu/spiderman-uhdpaper.com-4K-91.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+/*making the font black */
 .hero.is-danger .title {
   color: black;
 }
@@ -26,6 +30,22 @@
   left: -6px;
   position: absolute;
   top: -2px;
+}
+
+/*making the font black */
+.hero.is-danger .subtitle {
+  color: black;
+}
+
+.subtitle.is-one-fifth.header {
+  background-color: #fff;
+  border: solid 2px #000;
+  margin: 0;
+  padding: 3px 10px;
+  bottom: -2px;
+  right: -6px;
+  position: absolute;
+  transform: skew(-15deg);
 }
 
 button:hover {
