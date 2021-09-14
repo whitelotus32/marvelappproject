@@ -1,10 +1,15 @@
-var spiderman = function() {
+fetch('')
+    .then(response => response.json())
+    .then(data => console.log(data));
+
+/*
+    var spiderman = function() {
     console.log("function was called");
 };
 
 var response = fetch("API Function");
 console.log(response);
-
+*/
 
 /*
 var score = 0;
