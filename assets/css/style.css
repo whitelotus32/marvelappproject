@@ -53,6 +53,6 @@ button:hover {
 }
 
 /* trying to make the button change color when hovering */
-button.is-danger:hover {
-  background-color: blue;
+button.is-danger.blue-hov:hover {
+  background-color: darkblue;
 }
