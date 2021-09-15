@@ -12,5 +12,6 @@ An game app to test your knowledge of the character Spider-Man
 https://whitelotus32.github.io/marvelappproject/
 
 ## Contribution
-Nick Dixon
-Anthony Gonzalez
+* Nick Dixon
+* Anthony Gonzalez
+* Kristine Etsitty
