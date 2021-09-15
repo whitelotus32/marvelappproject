@@ -33,9 +33,19 @@
   float: right;
 }
 
+.title.start {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 /*making the font black */
 .hero.is-danger .subtitle {
   color: black;
+}
+
+.section {
+  background-image: radial-gradient(circle, lightcoral, tomato);
+  margin: 20px 0px;
 }
 
 .subtitle.is-one-fifth.header {
@@ -54,13 +64,36 @@ button:hover {
   transform: scale(1.1);
 }
 
+.subtitle {
+  margin: 20px 0px 20px 0px;
+  padding: 20px 0px;
+  text-align: center;
+  color: black;
+  background-color: #fff;
+  border: solid 2px #000;
+  margin: 0;
+  padding: 3px 10px;
+  transform: skew(-15deg);
+}
+
 /* trying to make the button change color when hovering */
 button.is-danger.blue-hov:hover {
   background-color: darkblue;
 }
 
+.button.is-danger.blue-hov.start {
+  margin: 0 auto;
+  display: block;
+}
+
 @media screen and (max-width: 700px) {
-  .title.header {
+  .title {
+    width: 50%;
+    height: 70%;
+    font-size: inherit;
+  }
+
+  .subtitle.column {
     width: 50%;
     height: 70%;
     font-size: inherit;

@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>Marvel Quiz</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--hero banner and title-->
     <section class="hero is-danger is-medium">
-        <div class="hero-body">
-            <p class="title header">
-                How Well Do You Know Spider-Man?
-            </p>
-            <p class="subtitle is-one-fifth header">
-
-                Let's find out!
-            </p>
-        </div>
+      <div class="hero-body">
+        <p class="title header">How Well Do You Know Spider-Man?</p>
+        <p class="subtitle is-one-fifth header">Let's find out!</p>
+      </div>
     </section>
 
     <!--question section-->
     <section class="section">
-        <h1 class="title">QUESTION 1</h2>
-            <h2 class="subtitle">
-                (INSERT QUESTION HERE)
-            </h2>
-            <button class="button is-danger blue-hov">True</button>
-            <button class="button is-danger blue-hov">False</button>
+      <div class="columns is-mobile">
+        <h1
+          id="quizQuestions"
+          class="title start column is-half is-offset-one-quarter"
+        >
+          Welcome to the Amazing Spider-Man quiz for the Amazing Spider-Man fan!
+        </h1>
+      </div>
+      <div class="columns is-mobile">
+        <div class="subtitle column is-half is-offset-one-quarter">
+          <h2 id="description">
+            Answer the Spider-Man questions correctly and you will earn a
+            surprise at the end!
+          </h2>
+          <ul id="quizAnswers"></ul>
+        </div>
+      </div>
+      <div class="columns is-mobile">
+        <div
+          id="response-container"
+          class="column is-half is-offset-one-quarter"
+        ></div>
+      </div>
+      <button id="startQuiz" class="button is-danger blue-hov start">
+        Start
+      </button>
     </section>
 
-    <script src="./assets/javascript/.js"></script>    
-</body>
-
+    <script src="./assets/javascript/.js"></script>
+  </body>
 </html>
