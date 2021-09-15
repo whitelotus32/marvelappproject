@@ -76,6 +76,14 @@ button:hover {
   transform: skew(-15deg);
 }
 
+.column.is-half.is-offset-one-quarter.giphy {
+  display: block;
+}
+
+img {
+  margin: 0 35%;
+}
+
 /* trying to make the button change color when hovering */
 button.is-danger.blue-hov:hover {
   background-color: darkblue;
@@ -86,11 +94,30 @@ button.is-danger.blue-hov:hover {
   display: block;
 }
 
+li {
+  background-color: red;
+  color: white;
+  margin: 10px 10%;
+  padding: 5px 15px;
+  width: 80%;
+  font-size: 18px;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 700px) {
   .title {
     width: 50%;
     height: 70%;
     font-size: inherit;
+  }
+
+  img {
+    margin: 0;
   }
 
   .subtitle.column {

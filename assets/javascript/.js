@@ -97,7 +97,9 @@ function quizDone() {
 }
 
 start.addEventListener("click", function () {
-  var removeButton = document.getElementById("description");
+  var removeSub = document.getElementById("description");
+  removeSub.style.display = "none";
+  var removeButton = document.getElementById("startQuiz");
   removeButton.style.display = "none";
   render(questionIndex);
 });
