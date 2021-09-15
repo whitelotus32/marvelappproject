@@ -13,3 +13,4 @@ https://whitelotus32.github.io/marvelappproject/
 
 ## Contribution
 Nick Dixon
+Anthony Gonzalez
