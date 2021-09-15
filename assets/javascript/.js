@@ -6,6 +6,7 @@ var response = fetch("API Function");
 console.log(response);
 
 
+
 /*
 var score = 0;
 
