@@ -1,34 +1,10 @@
-fetch('')
-    .then(response => response.json())
-    .then(data => console.log(data));
+var spiderman
 
-/*
-    var spiderman = function() {
-    console.log("function was called");
-};
+const foo = async () => {
+    let response = await fetch("https://www.superheroapi.com/api.php/10110052087058874/620")
+    let object = await response.json()
+    console.log(object.appearance)
+}
 
-var response = fetch("API Function");
-console.log(response);
-*/
+foo()
 
-/*
-var score = 0;
-
-var questions = [
-    {
-        title: "Were Peter Parker's parents regular citizens?",
-        choices: ["True", "False"],
-        answer: False
-    },
-    {
-        title: "Has Spider-Man ever been killed?",
-        choices: ["True", "False"],
-        answer: True
-    },
-    {
-        title: "Is Peter Parker the first Spider-Man?",
-        choices: ["True", "False"],
-        answer: False
-    },
-];
-*/ 
