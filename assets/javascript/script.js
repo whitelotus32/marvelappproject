@@ -32,6 +32,16 @@ function buildQuestions(spiderman) {
       choices: [spiderman.appearance["hair-color"], "Blonde", "Red", "Green"],
       answer: spiderman.appearance["hair-color"],
     },
+    {
+      title: "Where was Spider-Man born?",
+      choices: [
+        "Atlantic City, New Jersey",
+        spiderman.biography["place-of-birth"],
+        "Chicago, Illinois",
+        "Miami, Florida",
+      ],
+      answer: spiderman.biography["place-of-birth"],
+    },
   ];
 
   console.log(questions);
