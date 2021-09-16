@@ -42,6 +42,56 @@ function buildQuestions(spiderman) {
       ],
       answer: spiderman.biography["place-of-birth"],
     },
+    {
+      title: "What does Peter Parker do for work?",
+      choices: [
+        "Scientist as OsCorp",
+        "Works a hotdog stand",
+        spiderman.work["occupation"],
+        "Underground Wrestler",
+      ],
+      answer: spiderman.work["occupation"],
+    },
+    {
+      title: "Who is the publisher of Spider-Man?",
+      choices: [
+        "Timely Comics",
+        "Atlas Comics",
+        "Dark Horse Comics",
+        spiderman.biography["publisher"],        
+      ],
+      answer: spiderman.biography["publisher"],
+    },
+    {
+      title: "What comic was Spider-Man's first appearance?",
+      choices: [
+        "The Amazing Spider-Man Vol. 1: Gwen Stacy",
+        spiderman.biography["first-appearance"],
+        "Spectacular Spider-Man Vol. 1: Best of Enemies",
+        "The Amazing Spider-Man Vol. 1: Green Goblin Unmasked",
+      ],
+      answer: spiderman.biography["first-appearance"],
+    },
+    {
+      title: "What is Spider-Man's alignment?",
+      choices: [
+        spiderman.biography["alignment"],
+        "lawful neutral",
+        "chaotic neutral",
+        "bad",
+      ],
+      answer: spiderman.biography["alignment"],
+    },
+    {
+      title: "What is Spider-Man's race?",
+      choices: [
+        "Symbiote",
+        "Chitauri",
+        "Mutant",
+        spiderman.appearance["race"],
+      ],
+      answer: spiderman.appearance["race"],
+    },
   ];
 
   console.log(questions);
